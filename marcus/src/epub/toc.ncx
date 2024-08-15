@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en-US">
+	<head>
+		<meta content="url:https://standardebooks.org/ebooks/marcus-aurelius/meditations/george-long" name="dtb:uid"/>
+	</head>
+	<docTitle>
+		<text>Table of Contents</text>
+	</docTitle>
+	<navMap id="navmap">
+		<navPoint id="navpoint-1" playOrder="1">
+			<navLabel>
+				<text>Cover</text>
+			</navLabel>
+			<content src="text/cover.xhtml"/>
+		</navPoint>
+    <navPoint id="navpoint-2" playOrder="2">
+			<navLabel>
+				<text>Titlepage</text>
+			</navLabel>
+			<content src="text/titlepage.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-3" playOrder="3">
+			<navLabel>
+				<text>Public domain celebration</text>
+			</navLabel>
+			<content src="text/public-domain-celebration.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-4" playOrder="4">
+			<navLabel>
+				<text>Book I</text>
+			</navLabel>
+			<content src="text/book-1.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-5" playOrder="5">
+			<navLabel>
+				<text>Book II</text>
+			</navLabel>
+			<content src="text/book-2.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-6" playOrder="6">
+			<navLabel>
+				<text>Book III</text>
+			</navLabel>
+			<content src="text/book-3.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-7" playOrder="7">
+			<navLabel>
+				<text>Book IV</text>
+			</navLabel>
+			<content src="text/book-4.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-8" playOrder="8">
+			<navLabel>
+				<text>Book V</text>
+			</navLabel>
+			<content src="text/book-5.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-9" playOrder="9">
+			<navLabel>
+				<text>Book VI</text>
+			</navLabel>
+			<content src="text/book-6.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-10" playOrder="10">
+			<navLabel>
+				<text>Book VII</text>
+			</navLabel>
+			<content src="text/book-7.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-11" playOrder="11">
+			<navLabel>
+				<text>Book VIII</text>
+			</navLabel>
+			<content src="text/book-8.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-12" playOrder="12">
+			<navLabel>
+				<text>Book IX</text>
+			</navLabel>
+			<content src="text/book-9.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-13" playOrder="13">
+			<navLabel>
+				<text>Book X</text>
+			</navLabel>
+			<content src="text/book-10.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-14" playOrder="14">
+			<navLabel>
+				<text>Book XI</text>
+			</navLabel>
+			<content src="text/book-11.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-15" playOrder="15">
+			<navLabel>
+				<text>Book XII</text>
+			</navLabel>
+			<content src="text/book-12.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-16" playOrder="16">
+			<navLabel>
+				<text>Endnotes</text>
+			</navLabel>
+			<content src="text/endnotes.xhtml"/>
+		</navPoint>
+		<navPoint id="navpoint-17" playOrder="17">
+			<navLabel>
+				<text>Endless public domain</text>
+			</navLabel>
+			<content src="text/endless-public-domain.xhtml"/>
+		</navPoint>
+    <navPoint id="navpoint-18" playOrder="18">
+			<navLabel>
+				<text>Acknowledgments</text>
+			</navLabel>
+			<content src="text/acknowledgments.xhtml"/>
+		</navPoint>
+	</navMap>
+</ncx>
