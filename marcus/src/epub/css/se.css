@@ -1,85 +1,19 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-@font-face {
-  font-family: "TASA Orbiter";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/TASAOrbiterText-Regular.otf");
-}
-
-section.epub-type-titlepage h1 {
-  font-size: 3em;
-  font-family: "TASA Orbiter";
-  text-align: left;
-  font-variant: all-small-caps;
-  margin-left: 0;
-  margin-top: 1em;
-  margin-bottom: 2.5em;
-  width: 90%;
-}
-
-section.epub-type-titlepage p.traslated {
-  font-size: 1em;
-  font-family: "TASA Orbiter";
-  font-style: italic;
-  font-weight: bolder;
-  text-align: left;
-  margin-left: 0;
-  margin-top: 1em;
-  width: 90%;
-  font-variant: normal;
-}
-
-section.epub-type-titlepage p {
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: 0;
-  text-indent: 0;
-  font-size: 2.25em;
-  text-align: left;
-  width: 90%;
-  font-variant: all-small-caps;
-  font-family: "TASA Orbiter";
-}
-
-section.epub-type-acknowledgments h2,
-section.epub-type-public-domain-celebration h3 {
-  font-size: 1.5em;
-  font-variant: normal;
-  font-family: "TASA Orbiter", serif;
-  text-align: left;
-  margin-left: 0;
-  width: 90%;
-}
-
 /* This may appear in the colophon */
 abbr.epub-type-se-era {
   font-variant: small-caps;
   text-transform: lowercase;
 }
 
-section.epub-type-cover {
-  text-align: center;
-  height: 100%;
-  max-width: 100%;
-  clear: both;
-}
-
-section.epub-type-cover h1,
-section.epub-type-cover p,
-section.epub-type-titlepage h2,
-section.epub-type-endless-public-domain h2,
-section.epub-type-public-domain-celebration h2 {
+section.epub-type-titlepage h1,
+section.epub-type-titlepage p,
+section.epub-type-colophon h2,
+section.epub-type-imprint h2 {
   font-size: 0; /* Required for Kobo not to add an extra page to the title */
   left: -999em;
   position: absolute; /* Required for Kindle */
-}
-
-section.epub-type-cover img {
-  height: 100%;
-  max-width: 100%;
 }
 
 section.epub-type-titlepage img {
@@ -91,14 +25,13 @@ section.epub-type-titlepage img {
   width: 100%;
 }
 
-section.epub-type-acknowledgments,
-section.epub-type-endless-public-domain,
-section.epub-type-public-domain-celebration {
-  text-align: left;
+section.epub-type-colophon,
+section.epub-type-imprint {
+  text-align: center;
 }
 
-section.epub-type-endless-public-domain header,
-section.epub-type-public-domain-celebration header {
+section.epub-type-colophon header,
+section.epub-type-imprint header {
   line-height: 0;
   margin-top: 3em;
 }
@@ -108,22 +41,22 @@ img.epub-type-z3998-publisher-logo {
   width: 220px;
 }
 
-section.epub-type-acknowledgments p,
-section.epub-type-endless-public-domain p,
-section.epub-type-public-domain-celebration p {
+section.epub-type-colophon p,
+section.epub-type-imprint p {
   margin-top: 1em;
   margin-right: auto;
   margin-bottom: 0;
-  margin-left: 0;
+  margin-left: auto;
   text-indent: 0;
-  font-size: 1.25em;
-  text-align: left;
-  width: 90%;
-  line-height: 1.5em;
-  font-family: "TASA Orbiter";
 }
 
-section.epub-type-endless-public-domain p + p::before {
+section.epub-type-imprint p {
+  font-size: 0.75em;
+  text-align: justify;
+  width: 75%;
+}
+
+section.epub-type-colophon p + p::before {
   border-top: 1px solid;
   content: "";
   display: block;
@@ -134,25 +67,18 @@ section.epub-type-endless-public-domain p + p::before {
   width: 25%;
 }
 
-section.epub-type-endless-public-domain a {
+section.epub-type-colophon a {
   font-variant: small-caps;
 }
 
-section.epub-type-acknowledgments a,
-section.epub-type-public-domain-celebration a,
-section.epub-type-endless-public-domain a {
+section.epub-type-imprint a,
+section.epub-type-colophon a {
   hyphens: none;
   adobe-text-layout: optimizeSpeed; /* For Nook */
   adobe-hyphenate: none;
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -epub-hyphens: none;
-}
-
-section.epub-type-public-domain-celebration img {
-  height: 4.75em;
-  width: auto;
-  margin-left: -1em;
 }
 
 section.epub-type-copyright-page p {
