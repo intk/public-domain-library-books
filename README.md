@@ -2,7 +2,8 @@
 
 ## Disclaimer
 
-Instructions are for unix systems. If you use Windows look into `Powershell Expand-Archive` commands alternatives for the zip sections.
+Instructions are for unix systems. If you use Windows look into
+`Powershell Expand-Archive` commands alternatives for the zip sections.
 
 ## Build
 
@@ -18,19 +19,31 @@ cd ./{book}
 rm -f dist/{bookname}.epub
 ```
 
-### 3. Create new epub file
+### 3. Movce to source
 
 ```
-zip -X0 ./dist/{bookname}.epub ./src/mimetype
+cd src
 ```
 
-### 4. Add book content to epub file
+### 4. Create new epub file
 
 ```
-zip -rX9 ./dist/{bookname}.epub ./src/META-INF ./src/epub
+cd src && zip -X0 ./{bookname}.epub mimetype
+```
+
+### 5. Add book content to epub file
+
+```
+zip -r {bookname}.epub META-INF epub
 ```
 
 **_Note: epub can be under name "OEBPS "depending of the original source_**
+
+### 6. Move book to distrobution folder
+
+```
+mv ./src/{bookname}.epub ../dist
+```
 
 ## Add new book
 
