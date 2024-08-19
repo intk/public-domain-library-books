@@ -105,7 +105,7 @@
 		<item href="text/book-11.xhtml" id="book-11.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-12.xhtml" id="book-12.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/public-domain-celebration.xhtml" id="public-domain-celebration.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/public-domain.xhtml" id="public-domain.xhtml" media-type="application/xhtml+xml"/>
     <item href="text/acknowledgments.xhtml" id="acknowledgments.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/endless-public-domain.xhtml" id="endless-public-domain.xhtml" media-type="application/xhtml+xml"/>
@@ -118,7 +118,7 @@
 	<spine toc="ncx">
 		<itemref idref="cover.xhtml"/>
     <itemref idref="titlepage.xhtml"/>
-		<itemref idref="public-domain-celebration.xhtml"/>
+		<itemref idref="public-domain.xhtml"/>
 		<itemref idref="book-1.xhtml"/>
 		<itemref idref="book-2.xhtml"/>
 		<itemref idref="book-3.xhtml"/>

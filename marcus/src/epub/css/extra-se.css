@@ -45,7 +45,7 @@ section.epub-type-titlepage p {
 }
 
 section.epub-type-acknowledgments h2,
-section.epub-type-public-domain-celebration h3 {
+section.epub-type-public-domain h3 {
   font-size: 1.5em;
   font-variant: normal;
   font-family: "TASA Orbiter", serif;
@@ -71,7 +71,7 @@ section.epub-type-cover h1,
 section.epub-type-cover p,
 section.epub-type-titlepage h2,
 section.epub-type-endless-public-domain h2,
-section.epub-type-public-domain-celebration h2 {
+section.epub-type-public-domain h2 {
   font-size: 0; /* Required for Kobo not to add an extra page to the title */
   left: -999em;
   position: absolute; /* Required for Kindle */
@@ -93,12 +93,12 @@ section.epub-type-titlepage img {
 
 section.epub-type-acknowledgments,
 section.epub-type-endless-public-domain,
-section.epub-type-public-domain-celebration {
+section.epub-type-public-domain {
   text-align: left;
 }
 
 section.epub-type-endless-public-domain header,
-section.epub-type-public-domain-celebration header {
+section.epub-type-public-domain header {
   line-height: 0;
   margin-top: 3em;
 }
@@ -110,7 +110,7 @@ img.epub-type-z3998-publisher-logo {
 
 section.epub-type-acknowledgments p,
 section.epub-type-endless-public-domain p,
-section.epub-type-public-domain-celebration p {
+section.epub-type-public-domain p {
   margin-top: 1em;
   margin-right: auto;
   margin-bottom: 0;
@@ -139,7 +139,7 @@ section.epub-type-endless-public-domain a {
 }
 
 section.epub-type-acknowledgments a,
-section.epub-type-public-domain-celebration a,
+section.epub-type-public-domain a,
 section.epub-type-endless-public-domain a {
   hyphens: none;
   adobe-text-layout: optimizeSpeed; /* For Nook */
@@ -149,7 +149,7 @@ section.epub-type-endless-public-domain a {
   -epub-hyphens: none;
 }
 
-section.epub-type-public-domain-celebration img {
+section.epub-type-public-domain img {
   height: 4.75em;
   width: auto;
   margin-left: -1em;

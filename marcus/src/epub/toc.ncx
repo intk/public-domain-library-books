@@ -21,9 +21,9 @@
 		</navPoint>
 		<navPoint id="navpoint-3" playOrder="3">
 			<navLabel>
-				<text>Public domain celebration</text>
+				<text>Public domain</text>
 			</navLabel>
-			<content src="text/public-domain-celebration.xhtml"/>
+			<content src="text/public-domain.xhtml"/>
 		</navPoint>
 		<navPoint id="navpoint-4" playOrder="4">
 			<navLabel>

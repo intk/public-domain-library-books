@@ -226,7 +226,7 @@ section.epub-type-titlepage h1,
 section.epub-type-titlepage p,
 section.epub-type-cover h1,
 section.epub-type-cover p,
-section.epub-type-public-domain-celebration h2 {
+section.epub-type-public-domain h2 {
   display: none;
 }
 
@@ -236,7 +236,7 @@ section.epub-type-public-domain-celebration h2 {
   section.epub-type-titlepage p,
   section.epub-type-cover h1,
   section.epub-type-cover p,
-  section.epub-type-public-domain-celebration h2 {
+  section.epub-type-public-domain h2 {
     display: block;
   }
 }

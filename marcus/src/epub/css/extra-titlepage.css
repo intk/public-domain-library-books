@@ -44,7 +44,7 @@ p#translate-note-text {
   letter-spacing: calc(var(--v-translate-font-size) * -0.02);
   line-height: 90%;
   margin: 0;
-  margin-top: 2rem;
+  margin-top: 3.8rem;
   text-indent: 0;
   font-weight: normal;
   font-variant: normal;
