@@ -92,6 +92,7 @@
 		<item href="css/pdl/titlepage.css" id="pdl-titlepage.css" media-type="text/css"/>
 		<item href="css/pdl/public-domain.css" id="pdl-public-domain.css" media-type="text/css"/>
 		<item href="css/pdl/share-book.css" id="pdl-share-book.css" media-type="text/css"/>
+		<item href="css/pdl/acknowledgments.css" id="pdl-acknowledgments.css" media-type="text/css"/>
 		<item href="images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
     <item href="images/titlepage.png" id="titlepage.png" media-type="image/png"/>
 		<item href="images/pdl-black-logo.svg" id="pdl-black-logo.svg" media-type="image/svg+xml"/>
@@ -100,6 +101,7 @@
 		<item href="images/public-domain-orange-logo.svg" id="public-domain-orange-logo.svg" media-type="image/svg+xml"/>
 		<item href="images/pdl-globe-logo.svg" id="pdl-globe-logo.svg" media-type="image/svg+xml"/>
 		<item href="images/pdl-link-logo.svg" id="pdl-link-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-ack-logo.svg" id="pdl-ack-logo.svg" media-type="image/svg+xml"/>
 		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-2.xhtml" id="book-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-3.xhtml" id="book-3.xhtml" media-type="application/xhtml+xml"/>
