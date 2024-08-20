@@ -70,7 +70,7 @@ section.epub-type-cover {
 section.epub-type-cover h1,
 section.epub-type-cover p,
 section.epub-type-titlepage h2,
-section.epub-type-endless-public-domain h2,
+section.epub-type-share-book h2,
 section.epub-type-public-domain h2 {
   font-size: 0; /* Required for Kobo not to add an extra page to the title */
   left: -999em;
@@ -92,12 +92,12 @@ section.epub-type-titlepage img {
 }
 
 section.epub-type-acknowledgments,
-section.epub-type-endless-public-domain,
+section.epub-type-share-book,
 section.epub-type-public-domain {
   text-align: left;
 }
 
-section.epub-type-endless-public-domain header,
+section.epub-type-share-book header,
 section.epub-type-public-domain header {
   line-height: 0;
   margin-top: 3em;
@@ -109,7 +109,7 @@ img.epub-type-z3998-publisher-logo {
 }
 
 section.epub-type-acknowledgments p,
-section.epub-type-endless-public-domain p,
+section.epub-type-share-book p,
 section.epub-type-public-domain p {
   margin-top: 1em;
   margin-right: auto;
@@ -123,7 +123,7 @@ section.epub-type-public-domain p {
   font-family: "TASA Orbiter";
 }
 
-section.epub-type-endless-public-domain p + p::before {
+section.epub-type-share-book p + p::before {
   border-top: 1px solid;
   content: "";
   display: block;
@@ -134,13 +134,13 @@ section.epub-type-endless-public-domain p + p::before {
   width: 25%;
 }
 
-section.epub-type-endless-public-domain a {
+section.epub-type-share-book a {
   font-variant: small-caps;
 }
 
 section.epub-type-acknowledgments a,
 section.epub-type-public-domain a,
-section.epub-type-endless-public-domain a {
+section.epub-type-share-book a {
   hyphens: none;
   adobe-text-layout: optimizeSpeed; /* For Nook */
   adobe-hyphenate: none;

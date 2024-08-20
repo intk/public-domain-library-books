@@ -105,9 +105,9 @@
 		</navPoint>
 		<navPoint id="navpoint-17" playOrder="17">
 			<navLabel>
-				<text>Endless public domain</text>
+				<text>Share book</text>
 			</navLabel>
-			<content src="text/endless-public-domain.xhtml"/>
+			<content src="text/share-book.xhtml"/>
 		</navPoint>
     <navPoint id="navpoint-18" playOrder="18">
 			<navLabel>
