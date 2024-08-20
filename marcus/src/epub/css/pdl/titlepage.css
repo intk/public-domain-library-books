@@ -5,7 +5,7 @@
   font-family: "League Gothic Regular";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/LeagueGothic-Regular.ttf");
+  src: url("../../fonts/LeagueGothic-Regular.ttf");
 }
 
 :root {
@@ -39,7 +39,7 @@ h2 {
 }
 
 p#translate-note-text {
-  font-family: "League Gothic Regular" !important;
+  font-family: "League Gothic Regular";
   font-size: var(--v-translate-font-size);
   letter-spacing: calc(var(--v-translate-font-size) * -0.02);
   line-height: 90%;

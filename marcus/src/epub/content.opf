@@ -88,10 +88,15 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
+		<item href="css/pdl/se.css" id="pdl-se.css" media-type="text/css"/>
+		<item href="css/pdl/titlepage.css" id="pdl-titlepage.css" media-type="text/css"/>
+		<item href="css/pdl/public-domain.css" id="pdl-public-domain.css" media-type="text/css"/>
 		<item href="images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
     <item href="images/titlepage.png" id="titlepage.png" media-type="image/png"/>
 		<item href="images/pdl-black-logo.svg" id="pdl-black-logo.svg" media-type="image/svg+xml"/>
-		<item href="images/extra-preview-art.svg" id="extra-preview-art.svg" media-type="image/svg+xml"/>
+		<item href="images/titlepage-text.svg" id="titlepage-text.svg" media-type="image/svg+xml"/>
+		<item href="images/public-domain-black-logo.svg" id="public-domain-black-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/public-domain-orange-logo.svg" id="public-domain-orange-logo.svg" media-type="image/svg+xml"/>
 		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-2.xhtml" id="book-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-3.xhtml" id="book-3.xhtml" media-type="application/xhtml+xml"/>
@@ -113,6 +118,7 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
     <item href="fonts/TASAOrbiterText-Regular.otf" id="TASAOrbiterText-Regular.otf" media-type="application/vnd.ms-opentype"/>
+		<item href="fonts/TASAOrbiterDisplay-Medium.otf" id="TASAOrbiterDisplay-Medium.otf" media-type="application/vnd.ms-opentype"/>
 		<item href="fonts/LeagueGothic-Regular.ttf" id="LeagueGothic-Regular.ttf" media-type="font/ttf"/>
 	</manifest>
 	<spine toc="ncx">
