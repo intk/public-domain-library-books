@@ -124,6 +124,7 @@
     <item href="fonts/TASAOrbiterText-Regular.otf" id="TASAOrbiterText-Regular.otf" media-type="application/vnd.ms-opentype"/>
 		<item href="fonts/TASAOrbiterDisplay-Medium.otf" id="TASAOrbiterDisplay-Medium.otf" media-type="application/vnd.ms-opentype"/>
 		<item href="fonts/LeagueGothic-Regular.ttf" id="LeagueGothic-Regular.ttf" media-type="font/ttf"/>
+		<item href="fonts/TASAOrbiterVF.woff2" id="TASAOrbiterVF.woff2" media-type="font/woff2"/>
 	</manifest>
 	<spine toc="ncx">
 		<itemref idref="cover.xhtml"/>
