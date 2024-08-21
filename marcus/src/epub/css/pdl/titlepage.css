@@ -38,13 +38,14 @@ h2 {
   height: auto;
 }
 
-p#translate-note-text {
+h3 {
   font-family: "League Gothic Regular";
   font-size: var(--v-translate-font-size);
   letter-spacing: calc(var(--v-translate-font-size) * -0.02);
   line-height: 90%;
   margin: 0;
   margin-top: 3.8rem;
+  text-align: left;
   text-indent: 0;
   font-weight: normal;
   font-variant: normal;

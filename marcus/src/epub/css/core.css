@@ -296,3 +296,23 @@ img.mathml {
 :root[__ibooks_internal_theme] blockquote p:first-child {
   hanging-punctuation: first last !important;
 }
+
+/* Public Domain Library Chapters */
+@font-face {
+  font-family: "League Gothic Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/LeagueGothic-Regular.ttf");
+}
+
+h2 {
+  font-family: "League Gothic Regular";
+  font-size: 4.2rem;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 90%;
+  margin: 0 0 190px 0;
+  letter-spacing: 0.98;
+  text-align: left;
+  text-transform: none;
+}
