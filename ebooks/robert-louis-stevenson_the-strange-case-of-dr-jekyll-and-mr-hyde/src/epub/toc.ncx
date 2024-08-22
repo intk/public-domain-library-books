@@ -9,87 +9,93 @@
 	<navMap id="navmap">
 		<navPoint id="navpoint-1" playOrder="1">
 			<navLabel>
+				<text>Cover</text>
+			</navLabel>
+			<content src="text/cover.xhtml"/>
+		</navPoint>
+    <navPoint id="navpoint-2" playOrder="2">
+			<navLabel>
 				<text>Titlepage</text>
 			</navLabel>
 			<content src="text/titlepage.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-2" playOrder="2">
+		<navPoint id="navpoint-3" playOrder="3">
 			<navLabel>
 				<text>Imprint</text>
 			</navLabel>
 			<content src="text/imprint.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-3" playOrder="3">
+		<navPoint id="navpoint-4" playOrder="4">
 			<navLabel>
 				<text>Story of the Door</text>
 			</navLabel>
 			<content src="text/chapter-1.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-4" playOrder="4">
+		<navPoint id="navpoint-5" playOrder="5">
 			<navLabel>
 				<text>Search for Mr. Hyde</text>
 			</navLabel>
 			<content src="text/chapter-2.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-5" playOrder="5">
+		<navPoint id="navpoint-6" playOrder="6">
 			<navLabel>
 				<text>Dr. Jekyll Was Quite at Ease</text>
 			</navLabel>
 			<content src="text/chapter-3.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-6" playOrder="6">
+		<navPoint id="navpoint-7" playOrder="7">
 			<navLabel>
 				<text>The Carew Murder Case</text>
 			</navLabel>
 			<content src="text/chapter-4.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-7" playOrder="7">
+		<navPoint id="navpoint-8" playOrder="8">
 			<navLabel>
 				<text>Incident of the Letter</text>
 			</navLabel>
 			<content src="text/chapter-5.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-8" playOrder="8">
+		<navPoint id="navpoint-9" playOrder="9">
 			<navLabel>
 				<text>Incident of Dr. Lanyon</text>
 			</navLabel>
 			<content src="text/chapter-6.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-9" playOrder="9">
+		<navPoint id="navpoint-10" playOrder="10">
 			<navLabel>
 				<text>Incident at the Window</text>
 			</navLabel>
 			<content src="text/chapter-7.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-10" playOrder="10">
+		<navPoint id="navpoint-11" playOrder="11">
 			<navLabel>
 				<text>The Last Night</text>
 			</navLabel>
 			<content src="text/chapter-8.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-11" playOrder="11">
+		<navPoint id="navpoint-12" playOrder="12">
 			<navLabel>
 				<text>Dr. Lanyon’s Narrative</text>
 			</navLabel>
 			<content src="text/chapter-9.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-12" playOrder="12">
+		<navPoint id="navpoint-13" playOrder="13">
 			<navLabel>
 				<text>Henry Jekyll’s Full Statement of the Case</text>
 			</navLabel>
 			<content src="text/chapter-10.xhtml"/>
 		</navPoint>
-		<navPoint id="navpoint-13" playOrder="13">
-			<navLabel>
-				<text>Colophon</text>
-			</navLabel>
-			<content src="text/colophon.xhtml"/>
-		</navPoint>
 		<navPoint id="navpoint-14" playOrder="14">
 			<navLabel>
-				<text>Uncopyright</text>
+				<text>Donate</text>
 			</navLabel>
-			<content src="text/uncopyright.xhtml"/>
+			<content src="text/donate.xhtml"/>
+		</navPoint>
+    <navPoint id="navpoint-15" playOrder="15">
+			<navLabel>
+				<text>Acknowledgments</text>
+			</navLabel>
+			<content src="text/acknowledgments.xhtml"/>
 		</navPoint>
 	</navMap>
 </ncx>

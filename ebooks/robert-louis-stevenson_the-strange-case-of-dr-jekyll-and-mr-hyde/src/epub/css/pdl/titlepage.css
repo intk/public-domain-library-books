@@ -1,0 +1,45 @@
+@charset "utf-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+
+@font-face {
+  font-family: "League Gothic Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/LeagueGothic-Regular.ttf");
+}
+
+.title-section {
+  text-align: left;
+  text-indent: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "League Gothic Regular";
+  font-size: 4.75rem;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  margin: 0;
+}
+
+img {
+  width: 3rem;
+  height: auto;
+  margin: 2.1rem 0 1.4rem 0;
+}
+
+p {
+  /* font-family: "League Gothic Regular"; */
+  font-size: 0.85rem;
+  /* letter-spacing: calc(2rem * -0.02); */
+  /* line-height: 90%; */
+  margin: 0;
+  font-weight: 100;
+  margin-top: 1.25rem;
+  text-align: left;
+  text-indent: 0;
+  font-weight: normal;
+  font-variant: normal;
+}

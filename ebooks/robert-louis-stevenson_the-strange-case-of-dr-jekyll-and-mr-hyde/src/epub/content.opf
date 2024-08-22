@@ -103,9 +103,20 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
+		<item href="css/pdl/cover.css" id="pdl-cover.css" media-type="text/css"/>
+		<item href="css/pdl/titlepage.css" id="pdl-titlepage.css" media-type="text/css"/>
+		<item href="css/pdl/public-domain.css" id="pdl-public-domain.css" media-type="text/css"/>
+		<item href="css/pdl/donate.css" id="pdl-donate.css" media-type="text/css"/>
+		<item href="css/pdl/acknowledgments.css" id="pdl-acknowledgments.css" media-type="text/css"/>
 		<item href="images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
 		<item href="images/logo.png" id="logo.png" media-type="image/png"/>
 		<item href="images/titlepage.png" id="titlepage.png" media-type="image/png"/>
+		<item href="images/pdl-black-logo.svg" id="pdl-black-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-full-black-logo.svg" id="pdl-full-black-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-orange-logo.svg" id="pdl-orange-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-globe-logo.svg" id="pdl-globe-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-link-logo.svg" id="pdl-link-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-orange-logo-v2.svg" id="pdl-orange-logo-v2.svg" media-type="image/svg+xml"/>
 		<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-2.xhtml" id="chapter-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3.xhtml" id="chapter-3.xhtml" media-type="application/xhtml+xml"/>
@@ -116,16 +127,20 @@
 		<item href="text/chapter-8.xhtml" id="chapter-8.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-9.xhtml" id="chapter-9.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-10.xhtml" id="chapter-10.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/public-domain.xhtml" id="public-domain.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/donate.xhtml" id="donate.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/acknowledgments.xhtml" id="acknowledgments.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+		<item href="fonts/LeagueGothic-Regular.ttf" id="LeagueGothic-Regular.ttf" media-type="font/ttf"/>
+		<item href="fonts/TASAOrbiterVF.woff2" id="TASAOrbiterVF.woff2" media-type="font/woff2"/>
 	</manifest>
 	<spine toc="ncx">
-		<itemref idref="titlepage.xhtml"/>
-		<itemref idref="imprint.xhtml"/>
+		<itemref idref="cover.xhtml"/>
+    <itemref idref="titlepage.xhtml"/>
+		<itemref idref="public-domain.xhtml"/>
 		<itemref idref="chapter-1.xhtml"/>
 		<itemref idref="chapter-2.xhtml"/>
 		<itemref idref="chapter-3.xhtml"/>
@@ -136,8 +151,8 @@
 		<itemref idref="chapter-8.xhtml"/>
 		<itemref idref="chapter-9.xhtml"/>
 		<itemref idref="chapter-10.xhtml"/>
-		<itemref idref="colophon.xhtml"/>
-		<itemref idref="uncopyright.xhtml"/>
+		<itemref idref="donate.xhtml"/>
+    <itemref idref="acknowledgments.xhtml"/>
 	</spine>
 	<guide>
 		<reference href="text/titlepage.xhtml" title="Titlepage" type="title-page"/>
