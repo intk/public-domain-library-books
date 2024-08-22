@@ -8,43 +8,36 @@
   src: url("../../fonts/LeagueGothic-Regular.ttf");
 }
 
-:root {
-  --v-font-size: 17vw;
-  --v-line-height: 0.8;
-  --v-translate-font-size: clamp(12px, 9.5vw, 77px);
-}
-
 .title-section {
   text-align: left;
   text-indent: 0;
   margin: 0;
 }
 
-.title-section h1,
+h1,
 h2 {
-  width: auto;
-  height: auto;
-  word-wrap: break-word;
-  box-sizing: border-box;
-  margin: 0;
-  font-size: var(--v-font-size);
-  line-height: var(--v-line-height);
-  text-align: left;
-}
-
-.title-section img {
-  max-height: 70vh;
-  width: auto;
-  height: auto;
-}
-
-h3 {
   font-family: "League Gothic Regular";
-  font-size: var(--v-translate-font-size);
-  letter-spacing: calc(var(--v-translate-font-size) * -0.02);
-  line-height: 90%;
+  font-size: 4.75rem;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
   margin: 0;
-  margin-top: 3.8rem;
+}
+
+img {
+  width: 3rem;
+  height: auto;
+  margin: 2.1rem 0 1.4rem 0;
+}
+
+p {
+  /* font-family: "League Gothic Regular"; */
+  font-size: 0.85rem;
+  /* letter-spacing: calc(2rem * -0.02); */
+  /* line-height: 90%; */
+  margin: 0;
+  font-weight: 100;
+  margin-top: 1.25rem;
   text-align: left;
   text-indent: 0;
   font-weight: normal;
