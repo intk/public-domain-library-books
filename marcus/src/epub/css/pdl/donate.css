@@ -2,20 +2,20 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 @font-face {
-  font-family: "TASA Orbiter Display Medium";
+  font-family: "TASA Orbiter";
   font-style: normal;
-  font-weight: normal;
-  src: url("../../fonts/TASAOrbiterDisplay-Medium.otf");
+  font-weight: 100 900;
+  src: url("../../fonts/TASAOrbiterVF.woff2") format("woff2");
 }
 
 p {
-  font-family: "TASA Orbiter Display Medium";
+  font-family: "TASA Orbiter";
   font-size: 2.4rem;
   font-variant: normal;
-  font-weight: normal;
+  font-weight: 450;
   line-height: 100%;
   margin: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   text-align: left;
   text-indent: 0;
   text-transform: none;
@@ -26,14 +26,14 @@ p#second-paragraph {
 }
 
 #small-share-page-pdl-logos {
-  width: 50px;
+  width: 3rem;
   height: auto;
   margin-left: 0;
   margin-bottom: 0.55rem;
 }
 
 #large-pdl-logo {
-  width: 250px;
+  width: 15rem;
   height: auto;
 }
 
@@ -45,7 +45,6 @@ p#second-paragraph {
 a {
   color: #000;
   text-decoration: underline;
-  text-underline-offset: 0.3rem;
-  text-decoration-thickness: 0.1rem;
-  font-weight: 300;
+  text-underline-offset: 0.275rem;
+  text-decoration-thickness: 0.125rem;
 }
