@@ -95,7 +95,6 @@
 		<item href="css/pdl/acknowledgments.css" id="pdl-acknowledgments.css" media-type="text/css"/>
 		<item href="images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
 		<item href="images/pdl-black-logo.svg" id="pdl-black-logo.svg" media-type="image/svg+xml"/>
-		<item href="images/titlepage-text.svg" id="titlepage-text.svg" media-type="image/svg+xml"/>
 		<item href="images/pdl-full-black-logo.svg" id="pdl-full-black-logo.svg" media-type="image/svg+xml"/>
 		<item href="images/pdl-orange-logo.svg" id="pdl-orange-logo.svg" media-type="image/svg+xml"/>
 		<item href="images/pdl-globe-logo.svg" id="pdl-globe-logo.svg" media-type="image/svg+xml"/>
