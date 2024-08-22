@@ -94,14 +94,13 @@
 		<item href="css/pdl/donate.css" id="pdl-donate.css" media-type="text/css"/>
 		<item href="css/pdl/acknowledgments.css" id="pdl-acknowledgments.css" media-type="text/css"/>
 		<item href="images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
-    <item href="images/titlepage.png" id="titlepage.png" media-type="image/png"/>
 		<item href="images/pdl-black-logo.svg" id="pdl-black-logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage-text.svg" id="titlepage-text.svg" media-type="image/svg+xml"/>
-		<item href="images/public-domain-black-logo.svg" id="public-domain-black-logo.svg" media-type="image/svg+xml"/>
-		<item href="images/public-domain-orange-logo.svg" id="public-domain-orange-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-full-black-logo.svg" id="pdl-full-black-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-orange-logo.svg" id="pdl-orange-logo.svg" media-type="image/svg+xml"/>
 		<item href="images/pdl-globe-logo.svg" id="pdl-globe-logo.svg" media-type="image/svg+xml"/>
 		<item href="images/pdl-link-logo.svg" id="pdl-link-logo.svg" media-type="image/svg+xml"/>
-		<item href="images/pdl-ack-logo.svg" id="pdl-ack-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-orange-logo-v2.svg" id="pdl-orange-logo-v2.svg" media-type="image/svg+xml"/>
 		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-2.xhtml" id="book-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-3.xhtml" id="book-3.xhtml" media-type="application/xhtml+xml"/>
@@ -122,8 +121,6 @@
     <item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
-    <item href="fonts/TASAOrbiterText-Regular.otf" id="TASAOrbiterText-Regular.otf" media-type="application/vnd.ms-opentype"/>
-		<item href="fonts/TASAOrbiterDisplay-Medium.otf" id="TASAOrbiterDisplay-Medium.otf" media-type="application/vnd.ms-opentype"/>
 		<item href="fonts/LeagueGothic-Regular.ttf" id="LeagueGothic-Regular.ttf" media-type="font/ttf"/>
 		<item href="fonts/TASAOrbiterVF.woff2" id="TASAOrbiterVF.woff2" media-type="font/woff2"/>
 	</manifest>
