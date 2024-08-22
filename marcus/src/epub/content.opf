@@ -90,7 +90,7 @@
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
 		<item href="css/pdl/titlepage.css" id="pdl-titlepage.css" media-type="text/css"/>
 		<item href="css/pdl/public-domain.css" id="pdl-public-domain.css" media-type="text/css"/>
-		<item href="css/pdl/share-book.css" id="pdl-share-book.css" media-type="text/css"/>
+		<item href="css/pdl/donate.css" id="pdl-donate.css" media-type="text/css"/>
 		<item href="css/pdl/acknowledgments.css" id="pdl-acknowledgments.css" media-type="text/css"/>
 		<item href="images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
     <item href="images/titlepage.png" id="titlepage.png" media-type="image/png"/>
@@ -117,7 +117,7 @@
 		<item href="text/public-domain.xhtml" id="public-domain.xhtml" media-type="application/xhtml+xml"/>
     <item href="text/acknowledgments.xhtml" id="acknowledgments.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/share-book.xhtml" id="share-book.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/donate.xhtml" id="donate.xhtml" media-type="application/xhtml+xml"/>
     <item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
@@ -143,7 +143,7 @@
 		<itemref idref="book-11.xhtml"/>
 		<itemref idref="book-12.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
-		<itemref idref="share-book.xhtml"/>
+		<itemref idref="donate.xhtml"/>
     <itemref idref="acknowledgments.xhtml"/>
 	</spine>
 	<guide>

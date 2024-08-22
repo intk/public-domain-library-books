@@ -8,7 +8,7 @@
   src: url("../../fonts/TASAOrbiterVF.woff2") format("woff2");
 }
 
-h3 {
+h2 {
   font-family: "TASA Orbiter";
   font-size: 2.7rem;
   font-variant: normal;
@@ -21,7 +21,7 @@ h3 {
 
 p {
   font-family: "TASA Orbiter";
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   font-variant: normal;
   font-weight: 450;
   line-height: 115%;
@@ -40,7 +40,7 @@ p {
 }
 
 #large-pdl-logo {
-  width: 15rem;
+  width: 12.75rem;
   height: auto;
 }
 

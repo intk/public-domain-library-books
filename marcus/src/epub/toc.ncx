@@ -105,9 +105,9 @@
 		</navPoint>
 		<navPoint id="navpoint-17" playOrder="17">
 			<navLabel>
-				<text>Share book</text>
+				<text>Donate</text>
 			</navLabel>
-			<content src="text/share-book.xhtml"/>
+			<content src="text/donate.xhtml"/>
 		</navPoint>
     <navPoint id="navpoint-18" playOrder="18">
 			<navLabel>
