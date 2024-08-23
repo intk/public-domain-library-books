@@ -21,9 +21,9 @@
 		</navPoint>
 		<navPoint id="navpoint-3" playOrder="3">
 			<navLabel>
-				<text>Imprint</text>
+				<text>Public domain</text>
 			</navLabel>
-			<content src="text/imprint.xhtml"/>
+			<content src="text/public-domain.xhtml"/>
 		</navPoint>
 		<navPoint id="navpoint-4" playOrder="4">
 			<navLabel>

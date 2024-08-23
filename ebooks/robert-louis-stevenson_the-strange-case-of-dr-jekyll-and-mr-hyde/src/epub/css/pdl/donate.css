@@ -25,7 +25,8 @@ p#second-paragraph {
   margin-top: -0.1rem;
 }
 
-#small-share-page-pdl-logos {
+#small-link-pdl-logo,
+#small-globe-pdl-logo {
   width: 3rem;
   height: auto;
   margin-left: 0;

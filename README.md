@@ -10,7 +10,7 @@ Instructions are for unix systems. If you use Windows look into
 ### 1. Go to book location
 
 ```
-cd ./{book}
+cd ./ebooks/{book}
 ```
 
 ### 2. Remove old file
@@ -45,12 +45,34 @@ zip -r {bookname}.epub META-INF epub
 mv ./src/{bookname}.epub ../dist
 ```
 
+## Add other formats
+
+### 1. Move to Distrobution folder
+
+```
+cd ebooks/{book}/dist
+```
+
+### 2. Create Kepub file
+
+```
+cp {bookname}.epub {bookname}.kepub.epub
+```
+
+### 3. Create AZW3 file
+
+```
+ebook-convert {bookname}.epub {bookname}.azw3
+```
+
+**_Might ignore complex css like clamp()_**
+
 ## Add new book
 
 ### 1. Create new location
 
 ```
-mkdir {book} && cd {book}
+cd ebooks && mkdir {book} && cd {book}
 ```
 
 ### 2. Add content folders
