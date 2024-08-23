@@ -5,39 +5,42 @@
   font-family: "League Gothic Regular";
   font-style: normal;
   font-weight: normal;
-  src: url("../../fonts/LeagueGothic-Regular.ttf");
+  src: url("../../fonts/LeagueGothic-Regular.ttf") format("truetype");
 }
 
-.title-section {
+#title-section {
   text-align: left;
   text-indent: 0;
-  margin: 0;
+  margin: 1.5rem 0 0 0;
 }
 
 h1,
 h2 {
   font-family: "League Gothic Regular";
-  font-size: 4.75rem;
+  font-size: clamp(5.1rem, min(10vw, 4vh) + 3.7rem, 9.1rem);
+  line-height: 84%;
   font-style: normal;
   font-weight: normal;
   text-align: left;
   margin: 0;
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
 }
 
 img {
-  width: 3rem;
+  width: 2.65rem;
   height: auto;
-  margin: 2.1rem 0 1.4rem 0;
+  margin: 0.8rem 0 0.5rem 0;
 }
 
-p {
-  /* font-family: "League Gothic Regular"; */
-  font-size: 0.85rem;
-  /* letter-spacing: calc(2rem * -0.02); */
-  /* line-height: 90%; */
+h3 {
+  font-family: "League Gothic Regular";
+  font-size: clamp(2rem, min(5vw, 2vh), 2.9rem);
+  line-height: 2.6rem;
   margin: 0;
   font-weight: 100;
-  margin-top: 1.25rem;
+  margin-top: calc(clamp(2rem, min(5vw, 2vh), 2.9rem) * 1.2);
   text-align: left;
   text-indent: 0;
   font-weight: normal;

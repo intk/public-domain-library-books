@@ -302,7 +302,7 @@ img.mathml {
   font-family: "League Gothic Regular";
   font-style: normal;
   font-weight: normal;
-  src: url("../../fonts/LeagueGothic-Regular.ttf");
+  src: url("../fonts/LeagueGothic-Regular.ttf") format("truetype");
 }
 
 h2 {
