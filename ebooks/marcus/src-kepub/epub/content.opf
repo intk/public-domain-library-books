@@ -122,10 +122,9 @@
 		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
 		<item href="fonts/LeagueGothic-Regular.ttf" id="LeagueGothic-Regular.ttf" media-type="font/ttf"/>
 		<item href="fonts/TASAOrbiterVF.woff2" id="TASAOrbiterVF.woff2" media-type="font/woff2"/>
-		<item href="fonts/TASAOrbiterText-Regular.otf" id="TASAOrbiterText-Regular.otf" media-type="font/otf"/>
 	</manifest>
 	<spine toc="ncx">
-		<!-- <itemref idref="cover.xhtml"/> -->
+		<itemref idref="cover.xhtml"/>
     <itemref idref="titlepage.xhtml"/>
 		<itemref idref="public-domain.xhtml"/>
 		<itemref idref="book-1.xhtml"/>
