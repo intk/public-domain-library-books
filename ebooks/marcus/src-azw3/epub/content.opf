@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/marcus-aurelius/meditations/george-long</dc:identifier>
+		<dc:date>2014-05-25T00:00:00Z</dc:date>
+		<meta property="dcterms:modified">2023-12-06T22:46:24Z</meta>
+		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
+		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
+		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
+		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
+		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
+		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
+		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
+		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
+		<meta property="a11y:certifiedBy">Standard Ebooks</meta>
+		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">readingOrder</meta>
+		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
+		<meta property="schema:accessibilityFeature">tableOfContents</meta>
+		<meta property="schema:accessibilityFeature">unlocked</meta>
+		<meta property="schema:accessibilityHazard">none</meta>
+		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
+		<dc:title id="title">Meditations</dc:title>
+		<meta property="file-as" refines="#title">Meditations</meta>
+		<dc:subject id="subject-1">Ethics--Early works to 1800</dc:subject>
+		<dc:subject id="subject-2">Stoics--Early works to 1800</dc:subject>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh2008103325</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2010114783</meta>
+		<meta property="se:subject">Philosophy</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<dc:description id="description">The personal diary of the Roman Emperor, in which he lays out his thoughts and philosophical musings on the Stoic philosophy and way of life.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;Roman Emperor &lt;a href="https://standardebooks.org/ebooks/marcus-aurelius"&gt;Marcus Aurelius Antoninus Augustus&lt;/a&gt; was the model of what we call a philosopher-king. Though his rule was troubled by war and conflict, he remained a thoughtful and even-handed ruler.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Meditations&lt;/i&gt; isn’t a complete book, but rather a collection of his personal diary entries written over a ten-year campaign in Greece. The entries were never meant to be published; instead, they were a reminder to himself of how to remain calm, tranquil, and kind, even in the worst of situations. In them we see the emperor working out how to deal with the everyday problems all of us face: annoying coworkers, difficult family members, the expectations of others, unrealized goals and achievements, and, ultimately, happiness.&lt;/p&gt;
+			&lt;p&gt;The episodic nature of &lt;i&gt;Meditations&lt;/i&gt; makes it hard to follow at times, but in exchange we get a deeply personal window into the life of one of Rome’s most unique emperors, and more importantly, a handbook of thoughtful advice on how to live a tranquil, satisfied, and productive life.&lt;/p&gt;
+		</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>http://classics.mit.edu/Antoninus/meditations.html</dc:source>
+		<dc:source>http://books.google.com/books?id=i9iUswYUMmUC</dc:source>
+		<meta property="se:word-count">45696</meta>
+		<meta property="se:reading-ease.flesch">61.5</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Meditations</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/marcus-aurelius_meditations_george-long</meta>
+		<dc:creator id="author">Marcus Aurelius</dc:creator>
+		<meta property="file-as" refines="#author">Aurelius, Marcus</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Marcus_Aurelius</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80051702</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="translator">George Long</dc:contributor>
+		<meta property="file-as" refines="#translator">Long, George</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/George_Long_(scholar)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n82116302</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Sir Lawrence Alma-Tadema</dc:contributor>
+		<meta property="file-as" refines="#artist">Alma-Tadema, Lawrence</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79060123</meta>
+		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<dc:contributor id="transcriber-1">The Internet Classics Archive</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Internet Classics Archive, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">http://classics.mit.edu/</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:built-with">2.6.1</meta>
+		<meta name="cover" content="cover"/>
+		<meta property="se:transform">compatibility</meta>
+	</metadata>
+	<manifest>
+		<item href="css/core.css" id="core.css" media-type="text/css"/>
+		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="css/se.css" id="se.css" media-type="text/css"/>
+		<item href="css/pdl/cover.css" id="pdl-cover.css" media-type="text/css"/>
+		<item href="css/pdl/titlepage.css" id="pdl-titlepage.css" media-type="text/css"/>
+		<item href="css/pdl/public-domain.css" id="pdl-public-domain.css" media-type="text/css"/>
+		<item href="css/pdl/donate.css" id="pdl-donate.css" media-type="text/css"/>
+		<item href="css/pdl/acknowledgments.css" id="pdl-acknowledgments.css" media-type="text/css"/>
+		<item href="images/cover.jpg" id="cover" media-type="image/jpeg" properties="cover-image"/>
+		<item href="images/pdl-black-logo.svg" id="pdl-black-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-full-black-logo.svg" id="pdl-full-black-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-orange-logo.svg" id="pdl-orange-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-globe-logo.svg" id="pdl-globe-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-link-logo.svg" id="pdl-link-logo.svg" media-type="image/svg+xml"/>
+		<item href="images/pdl-orange-logo-v2.svg" id="pdl-orange-logo-v2.svg" media-type="image/svg+xml"/>
+		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-2.xhtml" id="book-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-3.xhtml" id="book-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-4.xhtml" id="book-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-5.xhtml" id="book-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-6.xhtml" id="book-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-7.xhtml" id="book-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-8.xhtml" id="book-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-9.xhtml" id="book-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-10.xhtml" id="book-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-11.xhtml" id="book-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-12.xhtml" id="book-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/public-domain.xhtml" id="public-domain.xhtml" media-type="application/xhtml+xml"/>
+    <item href="text/acknowledgments.xhtml" id="acknowledgments.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/donate.xhtml" id="donate.xhtml" media-type="application/xhtml+xml"/>
+    <item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml"/>
+		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+		<item href="fonts/LeagueGothic-Regular.ttf" id="LeagueGothic-Regular.ttf" media-type="font/ttf"/>
+		<item href="fonts/TASAOrbiterVF.woff2" id="TASAOrbiterVF.woff2" media-type="font/woff2"/>
+	</manifest>
+	<spine toc="ncx">
+		<!-- <itemref idref="cover.xhtml"/> -->
+    <itemref idref="titlepage.xhtml"/>
+		<itemref idref="public-domain.xhtml"/>
+		<itemref idref="book-1.xhtml"/>
+		<itemref idref="book-2.xhtml"/>
+		<itemref idref="book-3.xhtml"/>
+		<itemref idref="book-4.xhtml"/>
+		<itemref idref="book-5.xhtml"/>
+		<itemref idref="book-6.xhtml"/>
+		<itemref idref="book-7.xhtml"/>
+		<itemref idref="book-8.xhtml"/>
+		<itemref idref="book-9.xhtml"/>
+		<itemref idref="book-10.xhtml"/>
+		<itemref idref="book-11.xhtml"/>
+		<itemref idref="book-12.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
+		<itemref idref="donate.xhtml"/>
+    <itemref idref="acknowledgments.xhtml"/>
+	</spine>
+	<guide>
+		<reference href="text/endnotes.xhtml" title="Endnotes" type="other.endnotes other.footnotes"/>
+	</guide>
+</package>
