@@ -8,7 +8,7 @@
   src: url("../../fonts/LeagueGothic-Regular.ttf") format("truetype");
 }
 
-#title-section {
+#titlepage-text-section {
   text-align: left;
   text-indent: 0;
   margin: 1.5rem 0 0 0;
@@ -17,7 +17,7 @@
 h1,
 h2 {
   font-family: "League Gothic Regular";
-  font-size: clamp(5.1rem, min(10vw, 4vh) + 3.7rem, 9.1rem);
+  font-size: 7.1rem;
   line-height: 84%;
   font-style: normal;
   font-weight: normal;
@@ -26,9 +26,12 @@ h2 {
   overflow: visible;
   text-overflow: clip;
   white-space: normal;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
-img {
+img.logo-image {
+  display: block;
   width: 2.65rem;
   height: auto;
   margin: 0.8rem 0 0.5rem 0;
@@ -36,13 +39,21 @@ img {
 
 h3 {
   font-family: "League Gothic Regular";
-  font-size: clamp(2rem, min(5vw, 2vh), 2.9rem);
-  line-height: 2.6rem;
+  font-size: 2.3rem;
+  line-height: 2rem;
   margin: 0;
   font-weight: 100;
-  margin-top: calc(clamp(2rem, min(5vw, 2vh), 2.9rem) * 1.2);
+  margin-top: 3.48rem;
   text-align: left;
   text-indent: 0;
   font-weight: normal;
   font-variant: normal;
+}
+
+img.title-image {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }

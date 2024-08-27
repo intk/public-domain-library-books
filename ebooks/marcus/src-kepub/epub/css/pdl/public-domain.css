@@ -2,17 +2,17 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 @font-face {
-  font-family: "TASA Orbiter";
+  font-family: "TASA Orbiter Text";
   font-style: normal;
   font-weight: 100 900;
-  src: url("../../fonts/TASAOrbiterVF.woff2") format("woff2");
+  src: url("../../fonts/TASAOrbiterText-Regular.otf") format("opentype");
 }
 
 h2 {
-  font-family: "TASA Orbiter";
+  font-family: "TASA Orbiter Text";
   font-size: 2.7rem;
   font-variant: normal;
-  font-weight: 450;
+  font-weight: 500;
   line-height: 110%;
   margin: 0;
   text-align: left;
@@ -20,10 +20,10 @@ h2 {
 }
 
 p {
-  font-family: "TASA Orbiter";
+  font-family: "TASA Orbiter Text";
   font-size: 1.2rem;
   font-variant: normal;
-  font-weight: 450;
+  font-weight: 500;
   line-height: 115%;
   margin: 0 0 0.25rem 0;
   text-align: left;

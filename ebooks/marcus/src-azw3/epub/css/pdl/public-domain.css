@@ -2,13 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 @font-face {
-  font-family: "TASA Orbiter";
-  font-style: normal;
-  font-weight: 100 900;
-  src: url("../../fonts/TASAOrbiterVF.woff2") format("woff2");
-}
-
-@font-face {
   font-family: "TASA Orbiter Text";
   font-style: normal;
   font-weight: 100 900;
